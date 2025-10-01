@@ -1,0 +1,330 @@
+2025-10-01 10:31:05.489393-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    CREATE TABLE departamento (\000d\000a        [*]"; expected "identifier"; SQL statement:
+
+    CREATE TABLE departamento (
+         [42001-232]
+2025-10-01 10:31:05.500836-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]id INT AUTO_INCREMENT PRIMARY KEY,"; expected "INSERT"; SQL statement:
+
+    id INT AUTO_INCREMENT PRIMARY KEY, [42001-232]
+2025-10-01 10:31:05.504278-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]nombre VARCHAR(100) NOT NULL"; SQL statement:
+
+    nombre VARCHAR(100) NOT NULL [42000-232]
+2025-10-01 10:31:05.506318-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*])"; SQL statement:
+
+    ) [42000-232]
+2025-10-01 10:31:05.509073-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    CREATE TABLE puesto (\000d\000a        [*]"; expected "identifier"; SQL statement:
+
+    CREATE TABLE puesto (
+         [42001-232]
+2025-10-01 10:31:05.511077-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]id INT AUTO_INCREMENT PRIMARY KEY,"; expected "INSERT"; SQL statement:
+
+    id INT AUTO_INCREMENT PRIMARY KEY, [42001-232]
+2025-10-01 10:31:05.513462-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]nombre VARCHAR(100) NOT NULL"; SQL statement:
+
+    nombre VARCHAR(100) NOT NULL [42000-232]
+2025-10-01 10:31:05.516602-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*])"; SQL statement:
+
+    ) [42000-232]
+2025-10-01 10:31:05.519688-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    CREATE TABLE empleado (\000d\000a        [*]"; expected "identifier"; SQL statement:
+
+    CREATE TABLE empleado (
+         [42001-232]
+2025-10-01 10:31:05.521750-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]id INT AUTO_INCREMENT PRIMARY KEY,"; expected "INSERT"; SQL statement:
+
+    id INT AUTO_INCREMENT PRIMARY KEY, [42001-232]
+2025-10-01 10:31:05.524750-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]nombre VARCHAR(100) NOT NULL,"; SQL statement:
+
+    nombre VARCHAR(100) NOT NULL, [42000-232]
+2025-10-01 10:31:05.533172-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]edad INT NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+
+    edad INT NOT NULL, [42001-232]
+2025-10-01 10:31:05.536171-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]fecha_ingreso DATE NOT NULL,"; SQL statement:
+
+    fecha_ingreso DATE NOT NULL, [42000-232]
+2025-10-01 10:31:05.538171-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]salario DECIMAL(10,2) NOT NULL,"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+
+    salario DECIMAL(10,2) NOT NULL, [42001-232]
+2025-10-01 10:31:05.542174-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]empleado_fijo BOOLEAN NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+
+    empleado_fijo BOOLEAN NOT NULL, [42001-232]
+2025-10-01 10:31:05.547171-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]departamento_id INT,"; expected "DELETE, DROP"; SQL statement:
+
+    departamento_id INT, [42001-232]
+2025-10-01 10:31:05.553170-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]puesto_id INT,"; expected "PREPARE"; SQL statement:
+
+    puesto_id INT, [42001-232]
+2025-10-01 10:31:05.556171-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]CONSTRAINT fk_departamento FOREIGN KEY (departamento_id) REFERENCES departamento(id),"; SQL statement:
+
+    CONSTRAINT fk_departamento FOREIGN KEY (departamento_id) REFERENCES departamento(id), [42000-232]
+2025-10-01 10:31:05.559170-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]CONSTRAINT fk_puesto FOREIGN KEY (puesto_id) REFERENCES puesto(id)"; SQL statement:
+
+    CONSTRAINT fk_puesto FOREIGN KEY (puesto_id) REFERENCES puesto(id) [42000-232]
+2025-10-01 10:31:05.562170-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*])"; SQL statement:
+
+    ) [42000-232]
+2025-10-01 10:31:14.229139-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DEPARTAMENTO" not found (this database is empty); SQL statement:
+insert into Departamento (nombre,id) values (?,default) [42104-232]
+2025-10-01 10:33:31.078496-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    CREATE TABLE departamento (\000d\000a        [*]"; expected "identifier"; SQL statement:
+
+    CREATE TABLE departamento (
+         [42001-232]
+2025-10-01 10:33:31.083732-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]id INT AUTO_INCREMENT PRIMARY KEY,"; expected "INSERT"; SQL statement:
+
+    id INT AUTO_INCREMENT PRIMARY KEY, [42001-232]
+2025-10-01 10:33:31.086765-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]nombre VARCHAR(100) NOT NULL"; SQL statement:
+
+    nombre VARCHAR(100) NOT NULL [42000-232]
+2025-10-01 10:33:31.088915-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*])"; SQL statement:
+
+    ) [42000-232]
+2025-10-01 10:33:31.090915-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    CREATE TABLE puesto (\000d\000a        [*]"; expected "identifier"; SQL statement:
+
+    CREATE TABLE puesto (
+         [42001-232]
+2025-10-01 10:33:31.094965-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]id INT AUTO_INCREMENT PRIMARY KEY,"; expected "INSERT"; SQL statement:
+
+    id INT AUTO_INCREMENT PRIMARY KEY, [42001-232]
+2025-10-01 10:33:31.097505-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]nombre VARCHAR(100) NOT NULL"; SQL statement:
+
+    nombre VARCHAR(100) NOT NULL [42000-232]
+2025-10-01 10:33:31.099511-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*])"; SQL statement:
+
+    ) [42000-232]
+2025-10-01 10:33:31.101955-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    CREATE TABLE empleado (\000d\000a        [*]"; expected "identifier"; SQL statement:
+
+    CREATE TABLE empleado (
+         [42001-232]
+2025-10-01 10:33:31.103953-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]id INT AUTO_INCREMENT PRIMARY KEY,"; expected "INSERT"; SQL statement:
+
+    id INT AUTO_INCREMENT PRIMARY KEY, [42001-232]
+2025-10-01 10:33:31.106126-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]nombre VARCHAR(100) NOT NULL,"; SQL statement:
+
+    nombre VARCHAR(100) NOT NULL, [42000-232]
+2025-10-01 10:33:31.108474-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]edad INT NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+
+    edad INT NOT NULL, [42001-232]
+2025-10-01 10:33:31.109557-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]fecha_ingreso DATE NOT NULL,"; SQL statement:
+
+    fecha_ingreso DATE NOT NULL, [42000-232]
+2025-10-01 10:33:31.111947-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]salario DECIMAL(10,2) NOT NULL,"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+
+    salario DECIMAL(10,2) NOT NULL, [42001-232]
+2025-10-01 10:33:31.114948-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]empleado_fijo BOOLEAN NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+
+    empleado_fijo BOOLEAN NOT NULL, [42001-232]
+2025-10-01 10:33:31.117411-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]departamento_id INT,"; expected "DELETE, DROP"; SQL statement:
+
+    departamento_id INT, [42001-232]
+2025-10-01 10:33:31.120078-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]puesto_id INT,"; expected "PREPARE"; SQL statement:
+
+    puesto_id INT, [42001-232]
+2025-10-01 10:33:31.122689-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]CONSTRAINT fk_departamento FOREIGN KEY (departamento_id) REFERENCES departamento(id),"; SQL statement:
+
+    CONSTRAINT fk_departamento FOREIGN KEY (departamento_id) REFERENCES departamento(id), [42000-232]
+2025-10-01 10:33:31.123767-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]CONSTRAINT fk_puesto FOREIGN KEY (puesto_id) REFERENCES puesto(id)"; SQL statement:
+
+    CONSTRAINT fk_puesto FOREIGN KEY (puesto_id) REFERENCES puesto(id) [42000-232]
+2025-10-01 10:33:31.125903-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*])"; SQL statement:
+
+    ) [42000-232]
+2025-10-01 10:34:46.852326-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DEPARTAMENTO" not found (this database is empty); SQL statement:
+insert into departamento (nombre,id) values (?,default) [42104-232]
+2025-10-01 10:36:24.522628-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    CREATE TABLE departamento (\000d\000a        [*]"; expected "identifier"; SQL statement:
+
+    CREATE TABLE departamento (
+         [42001-232]
+2025-10-01 10:36:24.529185-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]id INT AUTO_INCREMENT PRIMARY KEY,"; expected "INSERT"; SQL statement:
+
+    id INT AUTO_INCREMENT PRIMARY KEY, [42001-232]
+2025-10-01 10:36:24.531721-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]nombre VARCHAR(100) NOT NULL"; SQL statement:
+
+    nombre VARCHAR(100) NOT NULL [42000-232]
+2025-10-01 10:36:24.535544-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*])"; SQL statement:
+
+    ) [42000-232]
+2025-10-01 10:36:24.538057-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    CREATE TABLE puesto (\000d\000a        [*]"; expected "identifier"; SQL statement:
+
+    CREATE TABLE puesto (
+         [42001-232]
+2025-10-01 10:36:24.542136-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]id INT AUTO_INCREMENT PRIMARY KEY,"; expected "INSERT"; SQL statement:
+
+    id INT AUTO_INCREMENT PRIMARY KEY, [42001-232]
+2025-10-01 10:36:24.545135-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]nombre VARCHAR(100) NOT NULL"; SQL statement:
+
+    nombre VARCHAR(100) NOT NULL [42000-232]
+2025-10-01 10:36:24.547650-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*])"; SQL statement:
+
+    ) [42000-232]
+2025-10-01 10:36:24.553899-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    CREATE TABLE empleado (\000d\000a        [*]"; expected "identifier"; SQL statement:
+
+    CREATE TABLE empleado (
+         [42001-232]
+2025-10-01 10:36:24.557409-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]id INT AUTO_INCREMENT PRIMARY KEY,"; expected "INSERT"; SQL statement:
+
+    id INT AUTO_INCREMENT PRIMARY KEY, [42001-232]
+2025-10-01 10:36:24.562723-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]nombre VARCHAR(100) NOT NULL,"; SQL statement:
+
+    nombre VARCHAR(100) NOT NULL, [42000-232]
+2025-10-01 10:36:24.566722-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]edad INT NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+
+    edad INT NOT NULL, [42001-232]
+2025-10-01 10:36:24.571245-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]fecha_ingreso DATE NOT NULL,"; SQL statement:
+
+    fecha_ingreso DATE NOT NULL, [42000-232]
+2025-10-01 10:36:24.573703-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]salario DECIMAL(10,2) NOT NULL,"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+
+    salario DECIMAL(10,2) NOT NULL, [42001-232]
+2025-10-01 10:36:24.576703-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]empleado_fijo BOOLEAN NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+
+    empleado_fijo BOOLEAN NOT NULL, [42001-232]
+2025-10-01 10:36:24.580230-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]departamento_id INT,"; expected "DELETE, DROP"; SQL statement:
+
+    departamento_id INT, [42001-232]
+2025-10-01 10:36:24.582248-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]puesto_id INT,"; expected "PREPARE"; SQL statement:
+
+    puesto_id INT, [42001-232]
+2025-10-01 10:36:24.588829-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]CONSTRAINT fk_departamento FOREIGN KEY (departamento_id) REFERENCES departamento(id),"; SQL statement:
+
+    CONSTRAINT fk_departamento FOREIGN KEY (departamento_id) REFERENCES departamento(id), [42000-232]
+2025-10-01 10:36:24.591247-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*]CONSTRAINT fk_puesto FOREIGN KEY (puesto_id) REFERENCES puesto(id)"; SQL statement:
+
+    CONSTRAINT fk_puesto FOREIGN KEY (puesto_id) REFERENCES puesto(id) [42000-232]
+2025-10-01 10:36:24.593428-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000d\000a    [*])"; SQL statement:
+
+    ) [42000-232]
+2025-10-01 10:36:27.461169-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DEPARTAMENTO" not found (this database is empty); SQL statement:
+insert into departamento (nombre,id) values (?,default) [42104-232]
+2025-10-01 11:09:57.893913-03:00 database: close
+org.h2.message.DbException: IO Exception: "Closing" [90028-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.close(Store.java:374)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1292)
+	at org.h2.engine.Database.closeImpl(Database.java:1254)
+	at org.h2.engine.Database.close(Database.java:1173)
+	at org.h2.engine.Database.onShutdown(Database.java:1158)
+	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: IO Exception: "Closing" [90028-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: org.h2.mvstore.MVStoreException: java.lang.NoClassDefFoundError: org/h2/mvstore/Chunk$PositionComparator [2.3.232/3]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:926)
+	at org.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at org.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at org.h2.mvstore.FileStore.compactStore(FileStore.java:890)
+	at org.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at org.h2.mvstore.MVStore.closeStore(MVStore.java:693)
+	at org.h2.mvstore.MVStore.close(MVStore.java:643)
+	at org.h2.mvstore.db.Store.close(Store.java:364)
+	... 6 more
+Caused by: java.lang.NoClassDefFoundError: org/h2/mvstore/Chunk$PositionComparator
+	at org.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at org.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at org.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at org.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1893)
+	at org.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:922)
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: org.h2.mvstore.Chunk$PositionComparator
+	at org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader.loadClass(URLClassLoaderBuilder.java:211)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 18 more
+2025-10-01 11:22:30.496581-03:00 database: close
+org.h2.message.DbException: IO Exception: "Closing" [90028-232]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.close(Store.java:374)
+	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1292)
+	at org.h2.engine.Database.closeImpl(Database.java:1254)
+	at org.h2.engine.Database.close(Database.java:1173)
+	at org.h2.engine.Database.onShutdown(Database.java:1158)
+	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: IO Exception: "Closing" [90028-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 8 more
+Caused by: org.h2.mvstore.MVStoreException: java.lang.NoClassDefFoundError: org/h2/mvstore/Chunk$PositionComparator [2.3.232/3]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:926)
+	at org.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:463)
+	at org.h2.mvstore.RandomAccessStore.compactStore(RandomAccessStore.java:443)
+	at org.h2.mvstore.FileStore.compactStore(FileStore.java:890)
+	at org.h2.mvstore.FileStore.stop(FileStore.java:275)
+	at org.h2.mvstore.MVStore.closeStore(MVStore.java:693)
+	at org.h2.mvstore.MVStore.close(MVStore.java:643)
+	at org.h2.mvstore.db.Store.close(Store.java:364)
+	... 6 more
+Caused by: java.lang.NoClassDefFoundError: org/h2/mvstore/Chunk$PositionComparator
+	at org.h2.mvstore.RandomAccessStore.findChunksToMove(RandomAccessStore.java:516)
+	at org.h2.mvstore.RandomAccessStore.compactMoveChunks(RandomAccessStore.java:479)
+	at org.h2.mvstore.RandomAccessStore.lambda$compactMoveChunks$1(RandomAccessStore.java:468)
+	at org.h2.mvstore.FileStore.executeFileStoreOperation(FileStore.java:1893)
+	at org.h2.mvstore.MVStore.executeFilestoreOperation(MVStore.java:922)
+	... 13 more
+Caused by: java.lang.ClassNotFoundException: org.h2.mvstore.Chunk$PositionComparator
+	at org.codehaus.mojo.exec.URLClassLoaderBuilder$ExecJavaClassLoader.loadClass(URLClassLoaderBuilder.java:211)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 18 more
